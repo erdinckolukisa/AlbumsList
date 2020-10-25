@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="artistCell" rowHeight="91" id="uH6-f8-aJn" customClass="ArtistTableViewCell" customModule="AppsFactoryTestTask" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="427" height="91"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="uH6-f8-aJn" id="x8R-Zo-yab">
+                <rect key="frame" x="0.0" y="0.0" width="427" height="90.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="A0Q-re-MDK">
+                        <rect key="frame" x="20" y="10" width="65" height="65"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="65" id="P8f-PS-uqT"/>
+                            <constraint firstAttribute="width" constant="65" id="keT-fO-XHm"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s1r-OA-Bg0">
+                        <rect key="frame" x="105" y="32" width="302" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="A0Q-re-MDK" secondAttribute="bottom" constant="10" id="Ffj-pC-a7I"/>
+                    <constraint firstItem="s1r-OA-Bg0" firstAttribute="leading" secondItem="A0Q-re-MDK" secondAttribute="trailing" constant="20" id="KOx-gJ-SR1"/>
+                    <constraint firstItem="A0Q-re-MDK" firstAttribute="top" secondItem="x8R-Zo-yab" secondAttribute="top" constant="10" id="Ow3-6R-8c0"/>
+                    <constraint firstItem="A0Q-re-MDK" firstAttribute="leading" secondItem="x8R-Zo-yab" secondAttribute="leading" constant="20" id="RWA-VF-aiO"/>
+                    <constraint firstAttribute="trailing" secondItem="s1r-OA-Bg0" secondAttribute="trailing" constant="20" id="fNR-2u-wSq"/>
+                    <constraint firstItem="s1r-OA-Bg0" firstAttribute="centerY" secondItem="A0Q-re-MDK" secondAttribute="centerY" id="hMr-rx-LMS"/>
+                    <constraint firstItem="A0Q-re-MDK" firstAttribute="centerY" secondItem="x8R-Zo-yab" secondAttribute="centerY" id="oA6-hy-FIY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="artistName" destination="s1r-OA-Bg0" id="qnS-C1-exy"/>
+                <outlet property="artistPhoto" destination="A0Q-re-MDK" id="Qmi-Hv-Bpl"/>
+            </connections>
+            <point key="canvasLocation" x="-255.79710144927537" y="45.870535714285715"/>
+        </tableViewCell>
+    </objects>
+</document>

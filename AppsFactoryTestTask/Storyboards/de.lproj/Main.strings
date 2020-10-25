@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "Album Name"; ObjectID = "3Jy-GM-mPI"; */
+"3Jy-GM-mPI.text" = "Album Name";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "90J-OC-BW3"; */
+"90J-OC-BW3.text" = "Label";
+
+/* Class = "UILabel"; text = "Number Of Tracks"; ObjectID = "95y-rf-ryk"; */
+"95y-rf-ryk.text" = "Number Of Tracks";
+
+/* Class = "UILabel"; text = "Track Name"; ObjectID = "ECC-GO-KoC"; */
+"ECC-GO-KoC.text" = "Track Name";
+
+/* Class = "UIBarButtonItem"; title = "save"; ObjectID = "JdX-Ob-FWE"; */
+"JdX-Ob-FWE.title" = "save";
+
+/* Class = "UILabel"; text = "Duration"; ObjectID = "R5n-P8-0SI"; */
+"R5n-P8-0SI.text" = "Duration";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "Sxo-nf-6wy"; */
+"Sxo-nf-6wy.title" = "Title";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "Z14-rK-5yi"; */
+"Z14-rK-5yi.title" = "Title";
+
+/* Class = "UILabel"; text = "Album Tracks:"; ObjectID = "bE2-Pk-aDd"; */
+"bE2-Pk-aDd.text" = "Album Tracks:";
+
+/* Class = "UILabel"; text = "Artist Name"; ObjectID = "omm-OC-V69"; */
+"omm-OC-V69.text" = "Artist Name";
+
+/* Class = "UILabel"; text = "Artist Name"; ObjectID = "oyl-YV-HTx"; */
+"oyl-YV-HTx.text" = "Artist Name";
